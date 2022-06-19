@@ -7,6 +7,7 @@
 - For start dev-mode `npm run start:dev`
 - For start prod-mode `npm run start:prod`
 - For tests `npm test`
+- You can use my postman config for fast travelling between requests ([postman.zip](https://github.com/shadowinhaze/nodejs-crud-api/files/8936460/postman.zip))
 
 ### Requests:
 - **get** `https:localhost:4000/users` => all users
@@ -20,10 +21,3 @@
 - ⚡ **I use 4000 port**, you are welcome to change it in .env file.
 - ⚡ Use endpoints without **'api'** word in requests, please!
 - ⚡ Database contains one user at the start for example!
-
-
-
-
-
-
-
