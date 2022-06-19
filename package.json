@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon ./src/index.ts",
-    "test": "jest"
+    "start:dev": "nodemon ./src/index.ts",
+    "start:prod": "webpack && node ./dist/bundle.js",
+    "test": "jest",
+    "build": "webpack"
   },
   "keywords": [],
   "author": "",
@@ -16,7 +18,6 @@
     "@types/supertest": "^2.0.12",
     "@typescript-eslint/eslint-plugin": "^5.28.0",
     "@typescript-eslint/parser": "^5.28.0",
-    "cross-env": "^7.0.3",
     "dotenv": "^16.0.1",
     "eslint": "^8.18.0",
     "eslint-config-airbnb-base": "^15.0.0",
