@@ -8,6 +8,22 @@
 - For start prod-mode `npm run start:prod`
 - For tests `npm test`
 
-⚡ **PUT** fully replace user information.
+### Requests:
+- **get** `https:localhost:4000/users` => all users
+- **post** `https:localhost:4000/users` => add new user with unic id
+- **get** `https:localhost:4000/users/${userID}` => get certain user
+- **put** `https:localhost:4000/users/${userID}` => update full info of certain user
+- **delete** `https:localhost:4000/users/${userID}` => delete certain user
 
-⚡ Use endpoints without **'api'** word in requests, please!
+### Warnings:
+- ⚡ **PUT** fully replace user information.
+- ⚡ **I use 4000 port**, you are welcome to change it in .env file.
+- ⚡ Use endpoints without **'api'** word in requests, please!
+- ⚡ Database contains one user at the start for example!
+
+
+
+
+
+
+
