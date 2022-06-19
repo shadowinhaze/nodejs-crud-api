@@ -69,4 +69,8 @@ export class App {
   public listen(port: string, cb: () => void): void {
     this.server.listen(port, cb);
   }
+
+  get testServer(): Server {
+    return this.server;
+  }
 }
